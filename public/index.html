@@ -9,17 +9,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
     <script src="https://www.gstatic.com/firebasejs/4.1.1/firebase.js"></script>
-    <script>
-      // Initialize Firebase
-      var config = {
-        apiKey: "AIzaSyDDTkpHpJhxYFuUWXWZ5dKlkJot6J21P_I",
-        authDomain: "bow-sfeir.firebaseapp.com",
-        databaseURL: "https://bow-sfeir.firebaseio.com",
-        projectId: "bow-sfeir-receiver",
-        storageBucket: "bow-sfeir.appspot.com",
-      };
-      firebase.initializeApp(config);
-    </script>
+    <script src="firebase.config.js"></script>
     <script type="text/javascript" src="gold.js"></script>
     <script type="text/javascript" src="underscore-min.js"></script>
   </head>
@@ -27,6 +17,7 @@
     <header>
       <div class="wrapper">
         <img src="logo.png" alt="" class="header_logo">
+        <a class="header_link" href="results.html">Résultats...</a>
         <div class="counter"></div>
       </div>
     </header>
