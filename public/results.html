@@ -13,11 +13,14 @@
   <body>
     <header>
       <div class="wrapper">
-        <img src="logo.png" alt="" class="header_logo">
+        <a href="index.html">
+          <img src="logo.png" alt="" class="header_logo">
+        </a>
         <div class="counter"></div>
       </div>
     </header>
-    HELLO :)
+    <button class="random_button" onclick="random()">Random...</button>
+    <ol id="candidates"></ol>
     <script type="text/javascript" src="//www.gstatic.com/cast/sdk/libs/receiver/2.0.0/cast_receiver.js"></script>
     <script src="node_modules/material-components-web/dist/material-components-web.min.js"></script>
     <script src="results.js"></script>
