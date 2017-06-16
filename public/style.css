@@ -119,3 +119,11 @@ textarea {
   color: var(--mdc-theme-accent);
   line-height: 60px;
 }
+
+.winner {
+  background: yellow;
+}
+
+.random_button {
+  float: right;
+}
