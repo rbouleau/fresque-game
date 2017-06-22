@@ -33,14 +33,6 @@ header {
   vertical-align: middle;
 }
 
-.header_link {
-  display: inline-block;
-  margin: 10px 0 0 10px;
-  vertical-align: middle;
-  text-decoration: none;
-  color: var(--mdc-theme-primary);
-}
-
 @media (min-width: 720px) {
   header {
     text-align: center;
